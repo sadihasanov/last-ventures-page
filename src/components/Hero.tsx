@@ -5,7 +5,7 @@ export function Hero() {
                 <h1 className="font-serif text-4xl leading-tight text-zinc-900 sm:text-5xl md:text-6xl lg:text-7xl">
                     We help the{" "}
                     <span className="relative inline-block">
-                        <span className="relative z-10">daring</span>
+                        <span className="relative z-10">ambitious</span>
                         {/* Hand-drawn circle accent */}
                         <svg
                             className="absolute -inset-2 -z-0 h-[calc(100%+16px)] w-[calc(100%+16px)]"
@@ -26,10 +26,11 @@ export function Hero() {
                             />
                         </svg>
                     </span>{" "}
-                    build legendary companies.
+                    build companies that last.
                 </h1>
                 <p className="mx-auto mt-8 max-w-2xl text-lg text-zinc-600">
-                    From idea to IPO and beyond.
+                    Hands-on legal, fundraising, and technical due diligence support for
+                    tech startups and scaleups.
                 </p>
             </div>
         </section>

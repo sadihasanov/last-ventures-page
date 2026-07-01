@@ -59,9 +59,9 @@ export default function AgiStoryPage() {
                             theoretical — they are deployed, scaled, and compounding.
                         </p>
                         <p className="mt-4 text-base leading-relaxed text-zinc-600">
-                            At Last Ventures, we have spent the last several years positioning our portfolio
-                            at the intersection of this transition. We backed founders who understood that
-                            the real opportunity was not in building AI tools, but in rebuilding entire
+                            At Last Ventures, we have spent the last several years working alongside
+                            founders at the intersection of this transition. We helped teams who understood
+                            that the real opportunity was not in building AI tools, but in rebuilding entire
                             industries with AI as the foundational layer.
                         </p>
 
@@ -73,16 +73,16 @@ export default function AgiStoryPage() {
                             has not. That gap is where the next generation of great companies will be built.
                         </p>
                         <p className="mt-4 text-base leading-relaxed text-zinc-600">
-                            We are actively looking for founders who understand this moment with clarity —
-                            who can see past the hype and into the structural changes that AGI enables. If
-                            that is you, we want to hear from you.
+                            We are actively looking to work with founders who understand this moment with
+                            clarity — who can see past the hype and into the structural changes that AGI
+                            enables. If that is you, we want to hear from you.
                         </p>
 
-                        <h2 className="mt-12 font-serif text-3xl text-zinc-900">Our Thesis</h2>
+                        <h2 className="mt-12 font-serif text-3xl text-zinc-900">What We Believe</h2>
                         <p className="mt-4 text-base leading-relaxed text-zinc-600">
-                            Last Ventures was built on a simple belief: the best time to invest is when the
+                            Last Ventures was built on a simple belief: the best time to build is when the
                             world is being rewritten. AGI is rewriting the world. We are here for it — as
-                            capital, as operators, and as partners to the founders who will shape what comes
+                            advisors, as operators, and as partners to the founders who will shape what comes
                             next.
                         </p>
                         <p className="mt-4 text-base leading-relaxed text-zinc-600">

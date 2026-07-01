@@ -33,33 +33,34 @@ export default function DisclosuresPage() {
                         <p>
                             Views expressed in &ldquo;posts&rdquo; (including podcasts, videos, and social
                             media) are those of the individual Last Ventures personnel quoted therein and are
-                            not the views of Last Ventures or its respective affiliates. Last Ventures is not
-                            a registered investment adviser. Nothing on this website constitutes investment
-                            advice, and you should not rely on any information here as such.
+                            not necessarily the views of Last Ventures or its respective affiliates. Nothing
+                            on this website constitutes legal, financial, tax, or other professional advice,
+                            and you should not rely on any information here as such.
                         </p>
 
                         <p>
-                            The posts are not directed to any investors or potential investors, and do not
-                            constitute an offer to sell — or a solicitation of an offer to buy — any
-                            securities, and may not be used or relied upon in evaluating the merits of any
-                            investment.
+                            Last Ventures provides advisory and support services to tech startups and
+                            scaleups. General information published on this website is provided for
+                            educational purposes only. It does not create an advisory, attorney-client, or
+                            other professional relationship, and it is not a substitute for tailored advice
+                            from a suitably qualified professional engaged to address your specific
+                            circumstances.
                         </p>
 
                         <p>
                             The contents here — and available on any associated distribution platforms and
                             any public Last Ventures online social media accounts, platforms, and sites
                             (collectively, &ldquo;content distribution outlets&rdquo;) — should not be
-                            construed as or relied upon in any manner as investment, legal, tax, or other
+                            construed as or relied upon in any manner as legal, tax, financial, or other
                             advice. You should consult your own advisers as to legal, business, tax, and
-                            other related matters concerning any investment.
+                            other related matters concerning your company.
                         </p>
 
                         <p>
                             Any projections, estimates, forecasts, targets, prospects and/or opinions
                             expressed in these materials are subject to change without notice and may differ
                             or be contrary to opinions expressed by others. Any charts provided here or on
-                            Last Ventures content distribution outlets are for informational purposes only,
-                            and should not be relied upon when making any investment decision.
+                            Last Ventures content distribution outlets are for informational purposes only.
                         </p>
 
                         <p>
@@ -71,17 +72,16 @@ export default function DisclosuresPage() {
                         </p>
 
                         <p>
-                            Under no circumstances should any posts or other information provided on this
-                            website — or on associated content distribution outlets — be construed as an
-                            offer soliciting the purchase or sale of any security or interest in any pooled
-                            investment vehicle sponsored, discussed, or mentioned by Last Ventures personnel.
+                            Last Ventures is not a venture capital fund, investment adviser, or broker, and
+                            does not offer, solicit, or manage investments. Nothing on this website — or on
+                            associated content distribution outlets — should be construed as an offer to buy
+                            or sell any security or interest in any investment vehicle.
                         </p>
 
                         <p>
-                            There can be no assurances that Last Ventures&apos; investment objectives will
-                            be achieved or investment strategies will be successful. Any investment involves
-                            a high degree of risk including the risk that the entire amount invested is lost.
-                            Past results of any investments or investment strategies are not necessarily
+                            Engaging Last Ventures does not guarantee any particular outcome. Building and
+                            scaling a company involves significant risk, and results depend on many factors
+                            outside our control. Past results of any engagement are not necessarily
                             indicative of future results.
                         </p>
 

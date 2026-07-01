@@ -5,23 +5,23 @@ import Link from "next/link";
 const values = [
     {
         title: "We back the daring, not the obvious.",
-        body: "The best companies rarely look like sure things at the start. We invest in founders who are willing to pursue ideas that seem impossible to most — because that's where the real value is created. We think more about how big the outcome can be than all the ways it can fail.",
+        body: "The best companies rarely look like sure things at the start. We choose to work with founders who are willing to pursue ideas that seem impossible to most — because that's where the real value is created. We think more about how big the outcome can be than all the ways it can fail.",
     },
     {
         title: "We are in the relationship business.",
-        body: "We take a long view. When we back a founder, we're committing to a relationship that outlasts any single company or fund cycle. We show up in the hard moments, not just the good ones. Our word is our bond — we don't make commitments we don't intend to keep.",
+        body: "We take a long view. When we take on a founder, we're committing to a relationship that outlasts any single project or engagement. We show up in the hard moments, not just the good ones. Our word is our bond — we don't make commitments we don't intend to keep.",
     },
     {
         title: "We tell the truth, even when it's hard.",
-        body: "Founders deserve honest feedback, not comfortable platitudes. We give our real opinion on pitches, strategies, and decisions — because that's what actually helps. We never publicly criticize an entrepreneur or their company. We save hard truths for private conversations.",
+        body: "Founders deserve honest feedback, not comfortable platitudes. We give our real opinion on contracts, raises, and technical decisions — because that's what actually helps. We never publicly criticize an entrepreneur or their company. We save hard truths for private conversations.",
     },
     {
         title: "We do first-class work, always.",
-        body: "We respond to every founder, even when the answer is no. We show up prepared. We follow through on what we say we'll do. The standard we hold ourselves to is the same standard we expect from the companies we back.",
+        body: "We respond to every founder, even when we're not the right fit. We show up prepared. We follow through on what we say we'll do. The standard we hold ourselves to is the same standard we expect from the companies we work with.",
     },
     {
         title: "We play to win — together.",
-        body: "We are not passive observers. When we invest, we bring our full network, expertise, and energy to help a company succeed. We celebrate wins loudly and work through losses quietly. We want to see every founder in our portfolio build something legendary.",
+        body: "We are not passive advisors. When we take on an engagement, we bring our full network, expertise, and energy to help a company succeed. We celebrate wins loudly and work through setbacks quietly. We want to see every founder we work with build something that lasts.",
     },
     {
         title: "We embrace what we don't yet understand.",
@@ -32,8 +32,8 @@ const values = [
 const stats = [
     { value: "2020", label: "Founded" },
     { value: "3", label: "Core verticals" },
-    { value: "€50M+", label: "Capital deployed" },
-    { value: "30+", label: "Portfolio companies" },
+    { value: "150+", label: "Startups supported" },
+    { value: "€80M+", label: "Raised by clients" },
 ];
 
 export default function AboutPage() {
@@ -64,10 +64,10 @@ export default function AboutPage() {
                         </div>
                         <div className="space-y-6 text-lg leading-relaxed text-zinc-600">
                             <p>
-                                Last Ventures is a venture firm that backs bold founders building
-                                companies that matter. We invest from the earliest stages — when
-                                an idea is still rough and the team is still small — and we stay
-                                committed through every phase of growth.
+                                Last Ventures helps bold founders build companies that matter.
+                                We work with tech startups and scaleups from the earliest
+                                stages — when an idea is still rough and the team is still
+                                small — and we stay committed through every phase of growth.
                             </p>
                             <p>
                                 We are operators and entrepreneurs ourselves. We know what it
@@ -76,10 +76,10 @@ export default function AboutPage() {
                                 everything about how we work with founders.
                             </p>
                             <p>
-                                We work across three verticals — Business Development, Funding,
-                                and Technical Consultancy — because great companies need more
-                                than capital. They need the right connections, the right
-                                architecture, and the right narrative. We provide all three.
+                                We work across three verticals — Legal, Fundraising, and
+                                Technical Due Diligence — because great companies need more than
+                                a good idea. They need solid foundations, the right investors,
+                                and technology they can trust. We help with all three.
                             </p>
                         </div>
                     </div>
@@ -150,8 +150,8 @@ export default function AboutPage() {
                                 Meet the people behind Last Ventures.
                             </h2>
                             <p className="mt-6 text-lg text-zinc-400">
-                                Our team is made up of founders, operators, engineers, and
-                                investors who have built and scaled companies across Europe and
+                                Our team is made up of founders, operators, lawyers, and
+                                engineers who have built and scaled companies across Europe and
                                 beyond.
                             </p>
                             <div className="mt-10 flex flex-wrap gap-4">
@@ -175,10 +175,10 @@ export default function AboutPage() {
                                     </svg>
                                 </Link>
                                 <Link
-                                    href="/companies"
+                                    href="/contact"
                                     className="inline-flex items-center gap-2 rounded-full border border-white/20 px-8 py-3 text-sm font-semibold text-white transition-all hover:bg-white/10"
                                 >
-                                    Our Portfolio
+                                    Get in Touch
                                 </Link>
                             </div>
                         </div>

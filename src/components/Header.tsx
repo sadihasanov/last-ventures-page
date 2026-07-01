@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export function Header() {
     const navLinks = [
+        { href: "/#services", label: "What We Do" },
         { href: "/about", label: "About" },
-        { href: "/founders", label: "Our Founders" },
-        { href: "/companies", label: "Our Companies" },
         { href: "/team", label: "Our Team" },
         { href: "/stories", label: "Stories" },
+        { href: "/contact", label: "Contact" },
     ];
 
     return (

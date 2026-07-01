@@ -1,42 +1,42 @@
 const verticals = [
     {
         number: "01",
-        title: "Business Development",
+        title: "Legal",
         description:
-            "We open doors that take years to knock on. Our network spans enterprise buyers, strategic partners, and distribution channels across Europe and beyond — giving our companies an unfair advantage from day one.",
+            "Solid legal foundations prevent expensive problems later. We help founders get the essentials right — from founders' agreements to the contracts that underpin a growing company — so you can move fast without leaving landmines behind.",
         bullets: [
-            "Introductions to enterprise clients & strategic partners",
-            "Go-to-market strategy and market entry support",
-            "Partnership structuring and commercial negotiations",
-            "Access to our curated founder & operator community",
+            "Founders' agreements, equity, and vesting structures",
+            "Company formation, governance, and cap table hygiene",
+            "Commercial contracts, NDAs, and customer/supplier terms",
+            "Employment, IP assignment, and data protection essentials",
         ],
         accent: "bg-amber-100",
         accentText: "text-amber-800",
     },
     {
         number: "02",
-        title: "Funding",
+        title: "Fundraising",
         description:
-            "Capital is table stakes. We help founders raise the right money from the right people at the right time — whether that's the first check or a Series B. We've been on both sides of the table.",
+            "Raising capital is a process, not an event. We help founders prepare, connect with the right investors, and navigate every stage of a round — from the first conversations to a signed term sheet.",
         bullets: [
-            "Seed to growth-stage fundraising support",
-            "Investor introductions across Europe and the US",
-            "Pitch deck, data room, and narrative coaching",
-            "Term sheet review and deal structuring guidance",
+            "Pitch deck, narrative, and data room preparation",
+            "Targeted introductions to relevant investors",
+            "Round strategy, valuation, and timeline planning",
+            "Term sheet review and negotiation support",
         ],
         accent: "bg-emerald-100",
         accentText: "text-emerald-800",
     },
     {
         number: "03",
-        title: "Technical Consultancy",
+        title: "Technical Due Diligence",
         description:
-            "Great ideas deserve great execution. Our technical advisors and CTOs-in-residence work hands-on with founding teams to architect scalable systems, hire the right engineers, and avoid costly mistakes early.",
+            "Whether you're raising, being acquired, or simply want an honest read on your stack, we give founders and investors a clear, objective picture of the technology — what's solid, what's risky, and what to fix first.",
         bullets: [
-            "Architecture reviews and technology stack decisions",
-            "CTO advisory and fractional technical leadership",
-            "Engineering team building and hiring support",
-            "AI/ML integration and product roadmap planning",
+            "Architecture, scalability, and code quality review",
+            "Security, infrastructure, and technical debt assessment",
+            "Team, process, and delivery capability evaluation",
+            "Clear, prioritized findings and a remediation roadmap",
         ],
         accent: "bg-sky-100",
         accentText: "text-sky-800",
@@ -45,7 +45,7 @@ const verticals = [
 
 export function Verticals() {
     return (
-        <section className="bg-zinc-900 px-6 py-24">
+        <section id="services" className="bg-zinc-900 px-6 py-24 scroll-mt-20">
             <div className="mx-auto max-w-7xl">
                 {/* Section Header */}
                 <div className="mb-16 max-w-2xl">
@@ -53,11 +53,11 @@ export function Verticals() {
                         How We Help
                     </p>
                     <h2 className="font-serif text-4xl leading-tight text-white sm:text-5xl">
-                        Three ways we accelerate your growth.
+                        Three ways we support your team.
                     </h2>
                     <p className="mt-6 text-lg text-zinc-400">
-                        We don&apos;t just write checks. We roll up our sleeves and work alongside
-                        founders across three core verticals.
+                        We&apos;re not a fund and we don&apos;t write checks. We roll up our
+                        sleeves and work alongside founders across three core verticals.
                     </p>
                 </div>
 

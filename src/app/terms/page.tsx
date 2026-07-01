@@ -74,28 +74,27 @@ export default function TermsPage() {
 
                         <Section title="Submissions to Last Ventures">
                             <p>
-                                Due to the large number of business plan ideas and related materials that Last
-                                Ventures reviews, and the similarity of many such plans and materials, we cannot
-                                agree to obligations of confidentiality, non-use, or non-disclosure with regard
-                                to any information or materials submitted or provided to or otherwise shared with
-                                us. By submitting information or materials to Last Ventures, you agree that any
-                                such information or materials will not be considered confidential or proprietary,
-                                and that Last Ventures is free to use it without condition. In no event will
-                                Last Ventures be limited in, or restricted from, the pursuit of any
-                                opportunities, either alone or with third parties.
+                                Unsolicited information or materials submitted through the Services (for
+                                example, via general contact forms or email) are not subject to any obligation
+                                of confidentiality, non-use, or non-disclosure on our part unless we have agreed
+                                otherwise in a signed engagement letter or non-disclosure agreement. Where you
+                                engage Last Ventures for services, the confidentiality terms of that engagement
+                                will govern the materials you share with us. Outside of such an engagement, by
+                                submitting information or materials through the Services you agree that we are
+                                free to use it without condition.
                             </p>
                         </Section>
 
                         <Section title="No Professional Advice">
                             <p>
-                                Nothing on the Services constitutes professional or financial advice of any kind
-                                (including business, employment, investment advisory, accounting, tax, and/or
-                                legal advice). Advice from a suitably qualified professional should always be
-                                sought in relation to any particular matter or circumstance. Nothing on the
-                                Services constitutes or forms a part of any offer for sale or subscription of,
-                                or any invitation to offer to buy or subscribe for, any securities, nor should
-                                it or any part of it form the basis of, or be relied upon in connection with,
-                                any contract or commitment whatsoever.
+                                Nothing on the Services constitutes professional advice of any kind (including
+                                business, employment, legal, accounting, or tax advice). General content
+                                published here is provided for educational purposes only and does not create an
+                                advisory, attorney-client, or other professional relationship. Advice from a
+                                suitably qualified professional, engaged to address your specific circumstances,
+                                should always be sought in relation to any particular matter. Nothing on the
+                                Services constitutes an offer to buy or sell any security or interest in any
+                                investment vehicle.
                             </p>
                         </Section>
 

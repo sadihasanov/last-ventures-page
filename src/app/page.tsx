@@ -32,15 +32,15 @@ export default function Home() {
           {/* Solid Cards Row */}
           <div className="mt-1 grid gap-1 sm:grid-cols-2">
             <SolidCard
-              title="Explore our companies"
-              description="Discover the innovators in our portfolio."
-              href="/companies"
+              title="See how we work"
+              description="Three verticals, one hands-on team."
+              href="/about"
               bgColor="bg-amber-100"
             />
             <SolidCard
-              title="Find jobs at portfolio companies"
-              description="Join a rocket ship."
-              href="/jobs"
+              title="Start a conversation"
+              description="Tell us what you're building."
+              href="/contact"
               bgColor="bg-teal-100"
             />
           </div>

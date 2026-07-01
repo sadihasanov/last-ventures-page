@@ -7,7 +7,7 @@ export function Footer() {
                 {/* Newsletter Section */}
                 <div className="mb-16 border-b border-white/20 pb-16">
                     <h2 className="font-serif text-3xl sm:text-4xl">
-                        Get the best stories from the Last Ventures community.
+                        Practical insights for founders, straight to your inbox.
                     </h2>
                     <form className="mt-8 flex max-w-md gap-4">
                         <input
@@ -74,25 +74,25 @@ export function Footer() {
                         </ul>
                     </div>
 
-                    {/* Portfolio */}
+                    {/* What We Do */}
                     <div>
                         <h3 className="mb-4 text-xs font-semibold uppercase tracking-wider text-white/60">
-                            Portfolio
+                            What We Do
                         </h3>
                         <ul className="space-y-3">
                             <li>
-                                <Link href="/companies" className="text-sm hover:underline">
-                                    Companies
+                                <Link href="/#services" className="text-sm hover:underline">
+                                    Legal
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/founders" className="text-sm hover:underline">
-                                    Founders
+                                <Link href="/#services" className="text-sm hover:underline">
+                                    Fundraising
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/jobs" className="text-sm hover:underline">
-                                    Jobs
+                                <Link href="/#services" className="text-sm hover:underline">
+                                    Technical Due Diligence
                                 </Link>
                             </li>
                         </ul>

@@ -14,7 +14,8 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Last Ventures",
-  description: "We help the daring build legendary companies",
+  description:
+    "Legal, fundraising, and technical due diligence support for tech startups and scaleups",
 };
 
 export default function RootLayout({
