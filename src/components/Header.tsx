@@ -1,19 +1,25 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
+
+const navLinks = [
+    { href: "/#services", label: "What We Do" },
+    { href: "/founders", label: "For Founders" },
+    { href: "/investors", label: "For Investors" },
+    { href: "/about", label: "About" },
+    { href: "/insights", label: "Insights" },
+    { href: "/contact", label: "Contact" },
+];
 
 export function Header() {
-    const navLinks = [
-        { href: "/#services", label: "What We Do" },
-        { href: "/about", label: "About" },
-        { href: "/team", label: "Our Team" },
-        { href: "/stories", label: "Stories" },
-        { href: "/contact", label: "Contact" },
-    ];
+    const [open, setOpen] = useState(false);
 
     return (
         <header className="fixed top-0 left-0 right-0 z-50 bg-[#f2f0e9]/90 backdrop-blur-sm">
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
                 {/* Logo */}
-                <Link href="/" className="flex items-center gap-2">
+                <Link href="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
                     <svg
                         className="h-6 w-6 text-emerald-700"
                         viewBox="0 0 24 24"
@@ -26,7 +32,7 @@ export function Header() {
                     </span>
                 </Link>
 
-                {/* Navigation */}
+                {/* Desktop navigation */}
                 <div className="hidden items-center gap-8 md:flex">
                     {navLinks.map((link) => (
                         <Link
@@ -37,25 +43,15 @@ export function Header() {
                             {link.label}
                         </Link>
                     ))}
-                    {/* <button className="text-zinc-600 transition-colors hover:text-zinc-900">
-                        <svg
-                            className="h-4 w-4"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                            />
-                        </svg>
-                    </button> */}
                 </div>
 
                 {/* Mobile menu button */}
-                <button className="md:hidden">
+                <button
+                    className="md:hidden"
+                    aria-label={open ? "Close menu" : "Open menu"}
+                    aria-expanded={open}
+                    onClick={() => setOpen((v) => !v)}
+                >
                     <svg
                         className="h-6 w-6 text-zinc-900"
                         fill="none"
@@ -66,11 +62,29 @@ export function Header() {
                             strokeLinecap="round"
                             strokeLinejoin="round"
                             strokeWidth={2}
-                            d="M4 6h16M4 12h16M4 18h16"
+                            d={open ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
                         />
                     </svg>
                 </button>
             </nav>
+
+            {/* Mobile navigation panel */}
+            {open && (
+                <div className="border-t border-zinc-900/10 bg-[#f2f0e9] md:hidden">
+                    <div className="mx-auto flex max-w-7xl flex-col px-6 py-4">
+                        {navLinks.map((link) => (
+                            <Link
+                                key={link.href}
+                                href={link.href}
+                                onClick={() => setOpen(false)}
+                                className="py-3 text-sm font-medium uppercase tracking-wider text-zinc-700 transition-colors hover:text-zinc-900"
+                            >
+                                {link.label}
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            )}
         </header>
     );
 }

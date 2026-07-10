@@ -2,20 +2,17 @@
 
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import Link from "next/link";
 
 const team = [
     {
-        name: "Sadiha Sanov",
-        role: "Managing Partner",
+        name: "Noor Al Rubaiy",
+        role: "Founder & Managing Director",
         imageUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80",
-        href: "/team/sadiha-sanov",
     },
     {
-        name: "Marcus Holt",
-        role: "General Partner",
+        name: "Sadi Hasanov",
+        role: "Cofounder",
         imageUrl: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80",
-        href: "/team/marcus-holt",
     },
 ];
 
@@ -59,9 +56,8 @@ export default function TeamPage() {
                 <div className="mx-auto max-w-7xl">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                         {team.map((member) => (
-                            <Link
+                            <div
                                 key={member.name}
-                                href={member.href}
                                 className="group relative block aspect-[3/4] overflow-hidden"
                             >
                                 {/* Photo */}
@@ -86,7 +82,7 @@ export default function TeamPage() {
                                         {member.role.toUpperCase()}
                                     </p>
                                 </div>
-                            </Link>
+                            </div>
                         ))}
                     </div>
                 </div>

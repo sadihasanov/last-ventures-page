@@ -1,18 +1,8 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Verticals } from "@/components/Verticals";
-import { ContentCard, SolidCard } from "@/components/ContentCard";
+import { SolidCard } from "@/components/ContentCard";
 import { Footer } from "@/components/Footer";
-
-const story = {
-  title: "2026: This is AGI",
-  category: "Perspective",
-  type: "Read" as const,
-  author: "Last Ventures Team",
-  imageUrl: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
-  href: "/stories/agi-2026",
-  featured: true,
-};
 
 export default function Home() {
   return (
@@ -21,27 +11,34 @@ export default function Home() {
       <Hero />
       <Verticals />
 
-      {/* Content Grid */}
-      <section className="bg-[#f2f0e9] px-6 py-16">
+      {/* Who we work with */}
+      <section className="bg-[#f2f0e9] px-6 py-20">
         <div className="mx-auto max-w-7xl">
-          {/* Featured Story — full width */}
-          <div className="grid gap-1">
-            <ContentCard {...story} />
+          <div className="mb-10 max-w-2xl">
+            <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-emerald-700">
+              Who We Work With
+            </p>
+            <h2 className="font-serif text-4xl leading-tight text-zinc-900 sm:text-5xl">
+              Built for both sides of the table.
+            </h2>
+            <p className="mt-6 text-lg text-zinc-600">
+              Whether you&apos;re raising your next round or evaluating a company to
+              invest in, we help you move with more confidence.
+            </p>
           </div>
 
-          {/* Solid Cards Row */}
-          <div className="mt-1 grid gap-1 sm:grid-cols-2">
+          <div className="grid gap-1 sm:grid-cols-2">
             <SolidCard
-              title="See how we work"
-              description="Three verticals, one hands-on team."
-              href="/about"
+              title="For Founders"
+              description="Raise with more confidence. Get investment-ready across legal, structure and technical foundations."
+              href="/founders"
               bgColor="bg-amber-100"
             />
             <SolidCard
-              title="Start a conversation"
-              description="Tell us what you're building."
-              href="/contact"
-              bgColor="bg-teal-100"
+              title="For Investors"
+              description="Look under the hood before you invest. Assess legal and technical foundations before committing capital."
+              href="/investors"
+              bgColor="bg-sky-100"
             />
           </div>
         </div>

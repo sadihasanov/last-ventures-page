@@ -9,12 +9,12 @@ const story = {
     author: "Last Ventures Team",
     date: "February 2026",
     imageUrl: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&q=80",
-    href: "/stories/agi-2026",
+    href: "/insights/agi-2026",
     excerpt:
         "We are living through the most consequential technological transition in human history. Artificial General Intelligence is no longer a distant horizon — it is here, and it is reshaping every industry, every institution, and every assumption we held about the future of work and human potential.",
 };
 
-export default function StoriesPage() {
+export default function InsightsPage() {
     return (
         <div className="min-h-screen bg-[#f2f0e9]">
             <Header />
@@ -26,7 +26,7 @@ export default function StoriesPage() {
                         className="font-sans text-6xl font-light text-zinc-900 sm:text-7xl md:text-8xl"
                         style={{ letterSpacing: "0.15em" }}
                     >
-                        STORIES
+                        INSIGHTS
                     </h1>
                     <div className="mt-4 h-px bg-zinc-300" />
                 </div>

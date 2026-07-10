@@ -10,8 +10,6 @@ const verticals = [
             "Commercial contracts, NDAs, and customer/supplier terms",
             "Employment, IP assignment, and data protection essentials",
         ],
-        accent: "bg-amber-100",
-        accentText: "text-amber-800",
     },
     {
         number: "02",
@@ -24,8 +22,6 @@ const verticals = [
             "Round strategy, valuation, and timeline planning",
             "Term sheet review and negotiation support",
         ],
-        accent: "bg-emerald-100",
-        accentText: "text-emerald-800",
     },
     {
         number: "03",
@@ -38,8 +34,6 @@ const verticals = [
             "Team, process, and delivery capability evaluation",
             "Clear, prioritized findings and a remediation roadmap",
         ],
-        accent: "bg-sky-100",
-        accentText: "text-sky-800",
     },
 ];
 
@@ -50,14 +44,16 @@ export function Verticals() {
                 {/* Section Header */}
                 <div className="mb-16 max-w-2xl">
                     <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-emerald-400">
-                        How We Help
+                        What We Do
                     </p>
                     <h2 className="font-serif text-4xl leading-tight text-white sm:text-5xl">
-                        Three ways we support your team.
+                        Three core services.
                     </h2>
                     <p className="mt-6 text-lg text-zinc-400">
-                        We&apos;re not a fund and we don&apos;t write checks. We roll up our
-                        sleeves and work alongside founders across three core verticals.
+                        Last Ventures is a boutique venture advisory firm for European tech
+                        founders. We&apos;re not a traditional VC fund — we roll up our
+                        sleeves across legal, fundraising, and technical due diligence to
+                        get companies investor-ready.
                     </p>
                 </div>
 
@@ -69,18 +65,11 @@ export function Verticals() {
                             className="group grid gap-8 py-12 transition-colors md:grid-cols-[1fr_2fr] md:gap-16"
                         >
                             {/* Left: Number + Title */}
-                            <div className="flex flex-col justify-between gap-4">
-                                <div>
-                                    <span className="font-mono text-xs text-zinc-600">{v.number}</span>
-                                    <h3 className="mt-2 font-serif text-2xl text-white sm:text-3xl">
-                                        {v.title}
-                                    </h3>
-                                </div>
-                                <span
-                                    className={`inline-block self-start rounded-full px-4 py-1.5 text-xs font-semibold uppercase tracking-wider ${v.accent} ${v.accentText}`}
-                                >
+                            <div>
+                                <span className="font-mono text-xs text-zinc-600">{v.number}</span>
+                                <h3 className="mt-2 font-serif text-2xl text-white sm:text-3xl">
                                     {v.title}
-                                </span>
+                                </h3>
                             </div>
 
                             {/* Right: Description + Bullets */}
@@ -99,6 +88,31 @@ export function Verticals() {
                             </div>
                         </div>
                     ))}
+                </div>
+
+                {/* Subtle: Angel investing + partner network */}
+                <div className="mt-16 grid gap-10 border-t border-zinc-800 pt-12 md:grid-cols-2 md:gap-16">
+                    <div>
+                        <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-emerald-400">
+                            Selective angel investing
+                        </p>
+                        <p className="text-sm leading-relaxed text-zinc-400">
+                            Last Ventures is not a traditional VC fund. Where there is strong
+                            conviction and strategic fit, we may selectively invest or
+                            introduce companies to trusted angels and investors in our
+                            network.
+                        </p>
+                    </div>
+                    <div>
+                        <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-zinc-500">
+                            Partner network
+                        </p>
+                        <p className="text-sm leading-relaxed text-zinc-400">
+                            Through our trusted partner network, we can also connect selected
+                            founders with support for international expansion, growth through
+                            marketing and market entry where relevant.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>

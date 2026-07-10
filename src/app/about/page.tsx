@@ -64,10 +64,12 @@ export default function AboutPage() {
                         </div>
                         <div className="space-y-6 text-lg leading-relaxed text-zinc-600">
                             <p>
-                                Last Ventures helps bold founders build companies that matter.
-                                We work with tech startups and scaleups from the earliest
-                                stages — when an idea is still rough and the team is still
-                                small — and we stay committed through every phase of growth.
+                                Last Ventures is a boutique venture advisory firm helping
+                                European tech founders become investor-ready through legal,
+                                fundraising and technical diligence support. We work with
+                                startups and scaleups from the earliest stages — when an idea
+                                is still rough and the team is still small — and stay
+                                committed through every phase of growth.
                             </p>
                             <p>
                                 We are operators and entrepreneurs ourselves. We know what it

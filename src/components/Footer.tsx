@@ -26,54 +26,6 @@ export function Footer() {
 
                 {/* Links Grid */}
                 <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
-                    {/* About */}
-                    <div>
-                        <h3 className="mb-4 text-xs font-semibold uppercase tracking-wider text-white/60">
-                            About
-                        </h3>
-                        <ul className="space-y-3">
-                            <li>
-                                <Link href="/team" className="text-sm hover:underline">
-                                    Team
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/careers" className="text-sm hover:underline">
-                                    Careers
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/contact" className="text-sm hover:underline">
-                                    Contact
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-
-                    {/* Resources */}
-                    <div>
-                        <h3 className="mb-4 text-xs font-semibold uppercase tracking-wider text-white/60">
-                            Resources
-                        </h3>
-                        <ul className="space-y-3">
-                            <li>
-                                <Link href="/stories" className="text-sm hover:underline">
-                                    Stories
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/podcast" className="text-sm hover:underline">
-                                    Podcast
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/research" className="text-sm hover:underline">
-                                    Research
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-
                     {/* What We Do */}
                     <div>
                         <h3 className="mb-4 text-xs font-semibold uppercase tracking-wider text-white/60">
@@ -98,22 +50,60 @@ export function Footer() {
                         </ul>
                     </div>
 
+                    {/* Who We Help */}
+                    <div>
+                        <h3 className="mb-4 text-xs font-semibold uppercase tracking-wider text-white/60">
+                            Who We Help
+                        </h3>
+                        <ul className="space-y-3">
+                            <li>
+                                <Link href="/founders" className="text-sm hover:underline">
+                                    For Founders
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/investors" className="text-sm hover:underline">
+                                    For Investors
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {/* Company */}
+                    <div>
+                        <h3 className="mb-4 text-xs font-semibold uppercase tracking-wider text-white/60">
+                            Company
+                        </h3>
+                        <ul className="space-y-3">
+                            <li>
+                                <Link href="/about" className="text-sm hover:underline">
+                                    About
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/team" className="text-sm hover:underline">
+                                    Team
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/insights" className="text-sm hover:underline">
+                                    Insights
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/contact" className="text-sm hover:underline">
+                                    Contact
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+
                     {/* Connect */}
                     <div>
                         <h3 className="mb-4 text-xs font-semibold uppercase tracking-wider text-white/60">
                             Connect
                         </h3>
                         <ul className="space-y-3">
-                            <li>
-                                <a
-                                    href="https://twitter.com"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-sm hover:underline"
-                                >
-                                    Twitter
-                                </a>
-                            </li>
                             <li>
                                 <a
                                     href="https://linkedin.com"
@@ -126,12 +116,12 @@ export function Footer() {
                             </li>
                             <li>
                                 <a
-                                    href="https://youtube.com"
+                                    href="https://twitter.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-sm hover:underline"
                                 >
-                                    YouTube
+                                    Twitter
                                 </a>
                             </li>
                         </ul>

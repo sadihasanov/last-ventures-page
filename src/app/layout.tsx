@@ -13,9 +13,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Last Ventures",
+  title: "Last Ventures — Venture advisory for European tech founders",
   description:
-    "Legal, fundraising, and technical due diligence support for tech startups and scaleups",
+    "Last Ventures is a boutique venture advisory firm helping European tech founders become investor-ready through legal, fundraising and technical diligence support.",
 };
 
 export default function RootLayout({

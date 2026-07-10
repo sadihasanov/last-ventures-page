@@ -3,9 +3,9 @@ export function Hero() {
         <section className="flex min-h-[70vh] items-center justify-center bg-[#f2f0e9] px-6 pt-20">
             <div className="max-w-4xl text-center">
                 <h1 className="font-serif text-4xl leading-tight text-zinc-900 sm:text-5xl md:text-6xl lg:text-7xl">
-                    We help the{" "}
+                    Venture support for European tech{" "}
                     <span className="relative inline-block">
-                        <span className="relative z-10">ambitious</span>
+                        <span className="relative z-10">founders</span>
                         {/* Hand-drawn circle accent */}
                         <svg
                             className="absolute -inset-2 -z-0 h-[calc(100%+16px)] w-[calc(100%+16px)]"
@@ -25,12 +25,13 @@ export function Hero() {
                                 strokeDashoffset="0"
                             />
                         </svg>
-                    </span>{" "}
-                    build companies that last.
+                    </span>
+                    .
                 </h1>
                 <p className="mx-auto mt-8 max-w-2xl text-lg text-zinc-600">
-                    Hands-on legal, fundraising, and technical due diligence support for
-                    tech startups and scaleups.
+                    We help ambitious tech companies get ready for funding, diligence and
+                    scale through venture legal, fundraising support and technical due
+                    diligence.
                 </p>
             </div>
         </section>

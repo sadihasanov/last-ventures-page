@@ -21,10 +21,10 @@ export default function AgiStoryPage() {
                     <div className="mx-auto max-w-4xl">
                         <div className="mb-4 flex items-center gap-3">
                             <Link
-                                href="/stories"
+                                href="/insights"
                                 className="text-xs font-semibold uppercase tracking-widest text-emerald-400 hover:text-emerald-300"
                             >
-                                ← Stories
+                                ← Insights
                             </Link>
                             <span className="text-zinc-600">·</span>
                             <span className="text-xs uppercase tracking-widest text-zinc-400">Perspective</span>
@@ -93,13 +93,13 @@ export default function AgiStoryPage() {
                     {/* Back link */}
                     <div className="mt-16 border-t border-zinc-200 pt-10">
                         <Link
-                            href="/stories"
+                            href="/insights"
                             className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-widest text-zinc-700 hover:text-zinc-900"
                         >
                             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16l-4-4m0 0l4-4m-4 4h18" />
                             </svg>
-                            All Stories
+                            All Insights
                         </Link>
                     </div>
                 </div>
